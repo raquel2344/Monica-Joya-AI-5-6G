@@ -10,3 +10,6 @@ __pycache__/
 
 # Instructor slide decks (not my work, kept local, not published)
 *.pptx
+
+# Mod 00 tutorials (third-party reference material, kept local)
+Mod 00/
