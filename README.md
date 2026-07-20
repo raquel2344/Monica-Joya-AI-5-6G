@@ -28,7 +28,7 @@ Each module has its own folder holding the actual work: assignments, lab noteboo
 | 08 | [Cybersecurity and AI](Module%208/) | Study notes |
 | 09 | [Sustainable AI and Green Communications](Module%209/) | Study notes |
 | 10 | [Midterm: Network Simulation and Predictive Optimization](Module%2010/) | Three-part simulation notebook |
-| 11 | [6G Vision and AI-Native Networks](Module%2011/) | 6G study and quiz |
+| 11 | [6G Vision and AI-Native Networks](Module%2011/) | 6G study notes |
 | 13 | [Ethical AI and Future Trends](Module%2013/) | Ethics assignment |
 | 14 | [Final Reflections and Full Portfolio](Module%2014/) | Full portfolio PDF and Word document |
 
@@ -62,5 +62,5 @@ Python, NumPy, pandas, Matplotlib, scikit-learn, TensorFlow and Keras, statsmode
 | Selected works (diagrams, notes, labs, mini-projects) | Every module folder, plus the diagrams and notebooks throughout |
 | Reflective essays (at least two) | The two essays in [`reflections/`](reflections/) |
 | Project documentation (problem, methods, code, results) | Each module README, structured into those sections, with the code committed alongside |
-| Assessment artifacts (quizzes, assignments, exercises) | Assignments 01 to 04, the exercises in Module 03, and the 6G quiz in Module 11 |
+| Assessment artifacts (quizzes, assignments, exercises) | Assignments 01 to 04, the exercises in Module 03, and the midterm project |
 | Growth evidence (basic to advanced) | The progression section above and the module order, from a single signal to self-managing simulations |
