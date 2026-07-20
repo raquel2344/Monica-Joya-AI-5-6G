@@ -7,3 +7,6 @@
 # Python
 __pycache__/
 *.pyc
+
+# Instructor slide decks (not my work, kept local, not published)
+*.pptx
