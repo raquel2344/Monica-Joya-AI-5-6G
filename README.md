@@ -37,8 +37,7 @@ Each module has its own folder holding the actual work: assignments, lab noteboo
 ## Reflective essays
 
 1. [How my understanding of telecommunications evolved](reflections/01-how-my-understanding-of-telecom-evolved.md)
-2. [Applying AI to telecommunications problems](reflections/02-applying-ai-to-telecom-problems.md)
-3. [Skills I improved and areas for future growth](reflections/03-skills-and-future-growth.md)
+2. [Applying AI, the glitches I overcame, and where I grew](reflections/02-applying-ai-to-telecom-problems.md)
 
 ## My progression, from basic to advanced
 
@@ -61,7 +60,7 @@ Python, NumPy, pandas, Matplotlib, scikit-learn, TensorFlow and Keras, statsmode
 | Required component | Where to find it |
 |--------------------|------------------|
 | Selected works (diagrams, notes, labs, mini-projects) | Every module folder, plus the diagrams and notebooks throughout |
-| Reflective essays (at least two) | The three essays in [`reflections/`](reflections/) |
+| Reflective essays (at least two) | The two essays in [`reflections/`](reflections/) |
 | Project documentation (problem, methods, code, results) | Each module README, structured into those sections, with the code committed alongside |
 | Assessment artifacts (quizzes, assignments, exercises) | Assignments 01 to 04, the exercises in Module 03, and the 6G quiz in Module 11 |
 | Growth evidence (basic to advanced) | The progression section above and the module order, from a single signal to self-managing simulations |

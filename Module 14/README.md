@@ -15,15 +15,14 @@ This module is the capstone. It brings the whole term together as one portfolio 
 
 ## The reflective essays
 
-The three reflective write-ups required by the assignment are in the reflections folder at the root of this repository:
+The two reflective write-ups are in the reflections folder at the root of this repository:
 
 - [How my understanding of telecommunications evolved](../reflections/01-how-my-understanding-of-telecom-evolved.md)
-- [Applying AI to telecommunications problems](../reflections/02-applying-ai-to-telecom-problems.md)
-- [Skills I improved and areas for future growth](../reflections/03-skills-and-future-growth.md)
+- [Applying AI, the glitches I overcame, and where I grew](../reflections/02-applying-ai-to-telecom-problems.md)
 
 ## What I learned
 
-Across the term I learned to move from describing a network to steering one: from tracing a single signal, to reading live traffic, to building and comparing machine learning models, to compressing a model for the edge and simulating a self-managing network. The reflections above go into this in depth.
+Across the term I learned to move from describing a network to steering one: from tracing a single signal, to reading live traffic, to building and comparing machine learning models, to compressing a model for the edge and simulating a self-managing network. The reflections above go into this in detail.
 
 ---
 [Back to portfolio home](../README.md)
