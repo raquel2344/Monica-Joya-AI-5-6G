@@ -1,8 +1,7 @@
 # Module 03 - AI and Machine Learning Fundamentals for Telecom
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** June 16 - June 22, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

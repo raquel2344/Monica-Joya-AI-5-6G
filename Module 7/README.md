@@ -1,8 +1,7 @@
 # Module 07 - IoT and Edge Computing with AI
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** July 14 - July 20, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

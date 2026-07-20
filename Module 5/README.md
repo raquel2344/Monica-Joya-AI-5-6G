@@ -1,8 +1,7 @@
 # Module 05 - Open RAN and AI-Driven Networks
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** June 30 - July 6, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

@@ -1,8 +1,7 @@
 # Module 09 - Sustainable AI and Green Communications
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** July 28 - August 3, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

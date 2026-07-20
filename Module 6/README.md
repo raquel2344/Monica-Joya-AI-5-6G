@@ -1,8 +1,7 @@
 # Module 06 - AI for Network Optimization and Management
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** July 7 - July 13, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

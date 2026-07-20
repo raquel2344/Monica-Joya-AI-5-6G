@@ -1,8 +1,7 @@
 # Module 08 - Cybersecurity and AI in Telecommunications
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** July 21 - July 27, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

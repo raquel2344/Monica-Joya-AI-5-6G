@@ -1,8 +1,7 @@
 # Module 11 - 6G Vision and AI-Native Networks
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** August 6, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 

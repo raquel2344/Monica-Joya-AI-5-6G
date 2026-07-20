@@ -1,8 +1,7 @@
 # Module 02 - Network Architecture and Wireless Basics
 
 **Course:** ITAI 4370 - AI in 5G and 6G Communications and ORAN Networks  
-**Student:** Monica Joya  |  **Term:** Summer 2026  
-**Module dates:** June 9 - June 15, 2026
+**Student:** Monica Joya  |  **Term:** Summer 2026
 
 ## Overview
 
