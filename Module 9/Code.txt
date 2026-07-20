@@ -1,0 +1,90 @@
+# Optimize energy use with Linear Programming
+from scipy.optimize import linprog
+
+# Objective: minimize energy cost (e.g., cost per kWh)
+costs = [0.12, 0.10, 0.08]  # price of energy sources [grid, solar, wind]
+# Constraints: meet total energy demand (100 kWh)
+A_eq = [[1, 1, 1]]
+b_eq = [100]
+
+# Capacity limits
+bounds = [(0, 70), (0, 50), (0, 60)]  # max for [grid, solar, wind]
+
+res = linprog(costs, A_eq=A_eq, b_eq=b_eq, bounds=bounds, method='highs')
+print(f"Optimal energy allocation (kWh): Grid={res.x[0]:.2f}, Solar={res.x[1]:.2f}, Wind={res.x[2]:.2f}")
+print(f"Total cost: ${res.fun:.2f}")
+
+
+################################################################################################################
+
+
+# Calculate CO₂ emissions from network energy usage
+def co2_savings(energy_kwh, grid_emission_factor=0.5, renewable_share=0.4):
+    """
+    energy_kwh: total energy consumed
+    grid_emission_factor: kg CO₂ per kWh
+    renewable_share: % of energy from renewables
+    """
+    grid_energy = energy_kwh * (1 - renewable_share)
+    emissions = grid_energy * grid_emission_factor
+    print(f"Total Energy: {energy_kwh} kWh")
+    print(f"Renewable Share: {renewable_share*100}%")
+    print(f"Estimated Emissions: {emissions:.2f} kg CO₂")
+
+co2_savings(energy_kwh=200000, renewable_share=0.6)
+
+
+#####################################################################################################################
+
+
+# Simulate base stations turning on/off to save energy
+import random
+
+base_stations = 10
+traffic = [random.uniform(0.2, 1.0) for _ in range(base_stations)]
+threshold = 0.5  # Below this traffic, cell can sleep
+
+active_cells = [1 if t > threshold else 0 for t in traffic]
+energy_use = sum([500 if a else 100 for a in active_cells])  # watts
+
+print("Traffic loads:", [round(t, 2) for t in traffic])
+print("Active cells:", active_cells)
+print(f"Total network power: {energy_use} W")
+print(f"Energy savings: {(1 - energy_use/(base_stations*500))*100:.2f}%")
+
+
+############################################################################################################################
+# Simple RL agent to reduce energy while maintaining QoS
+import numpy as np
+
+states = ["low_traffic", "medium_traffic", "high_traffic"]
+actions = ["sleep", "normal", "boost"]
+
+# Reward table (energy efficiency vs. QoS)
+reward = {
+    ("low_traffic", "sleep"): 10,
+    ("low_traffic", "normal"): 5,
+    ("low_traffic", "boost"): -5,
+    ("medium_traffic", "sleep"): -10,
+    ("medium_traffic", "normal"): 8,
+    ("medium_traffic", "boost"): 2,
+    ("high_traffic", "sleep"): -20,
+    ("high_traffic", "normal"): 5,
+    ("high_traffic", "boost"): 10,
+}
+
+# Q-learning setup
+Q = np.zeros((len(states), len(actions)))
+alpha, gamma = 0.1, 0.9
+
+for episode in range(500):
+    s = np.random.choice(states)
+    a = np.random.choice(actions)
+    r = reward[(s, a)]
+    Q[states.index(s), actions.index(a)] += alpha * (r + gamma * np.max(Q) - Q[states.index(s), actions.index(a)])
+
+print("Learned Q-Table:\n", Q)
+best_actions = [actions[np.argmax(Q[i])] for i in range(len(states))]
+print("Optimal policy:", dict(zip(states, best_actions)))
+
+
